@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-
+#make sure agent is working
 def generate():
     client = genai.Client(
         api_key=os.environ.get("GEMINI_API_KEY"),
